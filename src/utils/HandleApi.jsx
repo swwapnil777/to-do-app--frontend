@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Define the base URL for the API requests
-const baseUrl = "http://localhost:8000";
+const baseUrl = "https://to-do-app-backend-j6yq.onrender.com/"
 
 // Function to fetch all ToDo items from the server
 const getAllToDo = async (setToDo) => {
